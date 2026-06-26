@@ -1,35 +1,125 @@
 {
   "version": "2.0",
-  "dataset_id": "on005048",
-  "source": "openneuro",
-  "source_id": "ds005048",
+  "pipeline_stage": "validated",
   "title": "40Hz Auditory Entrainment",
-  "authors": {
-    "Mojtaba Lahijanian": {},
-    "Hamid Aghajan": {},
-    "Zahra Vahabi": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Mojtaba Lahijanian": {
+      "orcid": "0000-0001-9246-0095"
+    },
+    "Hamid Aghajan": {
+      "orcid": "0000-0001-9054-5642"
+    },
+    "Zahra Vahabi": {}
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005048.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1038/s41598-024-63727-z",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1101/2021.09.30.462389",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005048",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005048",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "This work was partially funded by the Cognitive Sciences & Technologies Council of Iran and by the grant G970736 from Sharif University of Technology, which covered the cost of data collection. The funders had no role in the study conceptualization and design, data collection and analysis, decision to publish, or preparation of the manuscript."
+      "funder_name": "Cognitive Sciences & Technologies Council of Iran"
+    },
+    {
+      "funder_name": "Sharif University of Technology",
+      "award_number": "G970736"
     }
   ],
-  "acknowledgements": "The authors wish to thank Ziaeian Hospital in Tehran for providing staff time and equipment for data collection in this study. We are grateful to the patients and their families who participated in this study."
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset comprises EEG recordings from elderly dementia patients during 40Hz auditory entrainment sessions designed to investigate gamma-band brain stimulation effects on neural oscillations. Participants underwent either short (6 trials) or long (10 trials) sessions of auditory stimulation using a 5kHz carrier tone amplitude-modulated at 40Hz, with simultaneous 19-channel EEG recording at 250Hz sampling rate. The study examines whether auditory gamma-band entrainment enhances default mode network connectivity and improves symptoms in Alzheimer's disease patients.",
+  "methods_description": "EEG data were recorded from 19 monopolar channels using the 10/20 system at 250Hz sampling rate with electrode impedance maintained below 20kΩ. Auditory stimulation consisted of a 5kHz carrier tone amplitude-modulated with a 40Hz rectangular wave (4% duty cycle). Each trial lasted 40 seconds followed by 20 seconds of silence. Preprocessing followed Makoto's pipeline including highpass filtering above 1Hz, line noise removal, and average referencing. Participants were seated comfortably with open eyes in a quiet room and instructed to minimize movement and muscle artifacts.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "gamma-band entrainment"
+    },
+    {
+      "term": "auditory stimulation"
+    },
+    {
+      "term": "neural entrainment"
+    },
+    {
+      "term": "Alzheimer's disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000544"
+    },
+    {
+      "term": "default mode network"
+    },
+    {
+      "term": "brain oscillations"
+    },
+    {
+      "term": "Dementia",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003704"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "neurodegeneration"
+    },
+    {
+      "term": "EEG preprocessing"
+    },
+    {
+      "term": "elderly"
+    },
+    {
+      "term": "aging"
+    },
+    {
+      "term": "40Hz"
+    },
+    {
+      "term": "brain stimulation"
+    },
+    {
+      "term": "non-invasive brain stimulation"
+    }
+  ],
+  "source_hash": "a8b4bcff3cc5355dd73ce4bc782362da5efa18ff006c2120a7f0bf46b56b833e"
 }
