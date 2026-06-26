@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "40Hz Auditory Entrainment",
+  "description": "This dataset comprises EEG recordings from elderly dementia patients during 40Hz auditory entrainment sessions designed to investigate gamma-band brain stimulation effects on neural oscillations. Participants underwent either short (6 trials) or long (10 trials) sessions of auditory stimulation using a 5kHz carrier tone amplitude-modulated at 40Hz, with simultaneous 19-channel EEG recording at 250Hz sampling rate. The study examines the effects of auditory gamma-band entrainment on brain oscillations and default mode network connectivity in Alzheimer's disease patients.",
+  "methods_description": "EEG data were recorded from 19 monopolar channels using the 10/20 system at 250Hz sampling rate with electrode impedance maintained below 20kΩ. Auditory stimulation consisted of a 5kHz carrier tone amplitude-modulated with a 40Hz rectangular wave (4% duty cycle). Each trial lasted 40 seconds followed by 20 seconds of silence. Short sessions included 6 trials while long sessions comprised 10 trials. Preprocessing followed Makoto's pipeline including highpass filtering above 1Hz and line noise removal, with average referencing applied during preprocessing.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,6 +15,32 @@
     },
     "Zahra Vahabi": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "gamma-band entrainment"
+    },
+    {
+      "term": "auditory stimulation"
+    },
+    {
+      "term": "dementia"
+    },
+    {
+      "term": "Alzheimer's disease"
+    },
+    {
+      "term": "brain oscillations"
+    },
+    {
+      "term": "40Hz"
+    },
+    {
+      "term": "elderly"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005048.v1.0.1",
@@ -49,77 +77,20 @@
       "award_number": "G970736"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "373.1 MB (71 files)"
   ],
   "formats": [
     ".fdt",
     ".json",
     ".md",
     ".set",
-    ".tsv"
-  ],
-  "description": "This dataset comprises EEG recordings from elderly dementia patients during 40Hz auditory entrainment sessions designed to investigate gamma-band brain stimulation effects on neural oscillations. Participants underwent either short (6 trials) or long (10 trials) sessions of auditory stimulation using a 5kHz carrier tone amplitude-modulated at 40Hz, with simultaneous 19-channel EEG recording at 250Hz sampling rate. The study examines whether auditory gamma-band entrainment enhances default mode network connectivity and improves symptoms in Alzheimer's disease patients.",
-  "methods_description": "EEG data were recorded from 19 monopolar channels using the 10/20 system at 250Hz sampling rate with electrode impedance maintained below 20kΩ. Auditory stimulation consisted of a 5kHz carrier tone amplitude-modulated with a 40Hz rectangular wave (4% duty cycle). Each trial lasted 40 seconds followed by 20 seconds of silence. Preprocessing followed Makoto's pipeline including highpass filtering above 1Hz, line noise removal, and average referencing. Participants were seated comfortably with open eyes in a quiet room and instructed to minimize movement and muscle artifacts.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "gamma-band entrainment"
-    },
-    {
-      "term": "auditory stimulation"
-    },
-    {
-      "term": "neural entrainment"
-    },
-    {
-      "term": "Alzheimer's disease",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000544"
-    },
-    {
-      "term": "default mode network"
-    },
-    {
-      "term": "brain oscillations"
-    },
-    {
-      "term": "Dementia",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003704"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "neurodegeneration"
-    },
-    {
-      "term": "EEG preprocessing"
-    },
-    {
-      "term": "elderly"
-    },
-    {
-      "term": "aging"
-    },
-    {
-      "term": "40Hz"
-    },
-    {
-      "term": "brain stimulation"
-    },
-    {
-      "term": "non-invasive brain stimulation"
-    }
+    ".tsv",
+    ".yml"
   ],
   "source_hash": "a8b4bcff3cc5355dd73ce4bc782362da5efa18ff006c2120a7f0bf46b56b833e"
 }
