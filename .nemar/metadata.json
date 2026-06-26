@@ -1,0 +1,35 @@
+{
+  "version": "2.0",
+  "dataset_id": "on005048",
+  "source": "openneuro",
+  "source_id": "ds005048",
+  "title": "40Hz Auditory Entrainment",
+  "authors": {
+    "Mojtaba Lahijanian": {},
+    "Hamid Aghajan": {},
+    "Zahra Vahabi": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds005048.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "This work was partially funded by the Cognitive Sciences & Technologies Council of Iran and by the grant G970736 from Sharif University of Technology, which covered the cost of data collection. The funders had no role in the study conceptualization and design, data collection and analysis, decision to publish, or preparation of the manuscript."
+    }
+  ],
+  "acknowledgements": "The authors wish to thank Ziaeian Hospital in Tehran for providing staff time and equipment for data collection in this study. We are grateful to the patients and their families who participated in this study."
+}
