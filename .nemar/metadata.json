@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "40Hz Auditory Entrainment",
-  "description": "This dataset contains EEG recordings from elderly patients with dementia undergoing 40Hz auditory gamma-band entrainment sessions. The study investigates whether auditory stimulation modulated at 40Hz can entrain brain oscillations and enhance functional connectivity, particularly within the default mode network, as a potential intervention for Alzheimer's disease symptoms. Both short and long entrainment sessions were conducted to accommodate participant tolerance, with EEG data collected using a 19-channel 10/20 system setup.",
-  "methods_description": "EEG data were recorded using 19 monopolar channels based on the standard 10/20 system at a 250Hz sampling rate, with electrode impedance kept under 20kΩ. Auditory stimuli consisted of a 5kHz carrier tone amplitude-modulated with a 40Hz rectangular wave (4% duty cycle), delivered via two speakers positioned 50cm from the participant. Sessions included multiple 40-second stimulation trials interleaved with 20-second rest periods, with short sessions comprising six trials and long sessions ten trials. Preprocessing followed Makoto's pipeline, including highpass filtering above 1Hz, line noise removal, bad channel rejection, and average referencing.",
+  "description": "This dataset contains EEG recordings from elderly participants with dementia undergoing 40Hz auditory gamma-band entrainment stimulation. The study aims to investigate the effect of auditory entrainment on brain oscillations, motivated by prior findings that gamma entrainment can improve symptoms of Alzheimer's disease. EEG was recorded using a 19-channel 10/20 system montage during short and long stimulation sessions involving amplitude-modulated tones.",
+  "methods_description": "EEG data were recorded using 19 monopolar channels based on the standard 10/20 system at a sampling rate of 250Hz, with electrode impedance kept under 20kΩ. Auditory stimuli consisted of a 5kHz carrier tone amplitude-modulated with a 40Hz rectangular wave (4% duty cycle), delivered via two speakers positioned 50cm from the participant. Sessions included multiple 40-second trials interleaved with 20-second rest periods, with short sessions (6 trials) referenced to earlobes and long sessions (10 trials) referenced to FCz; data were later re-referenced to the average during preprocessing.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -31,29 +31,19 @@
       "term": "gamma oscillations"
     },
     {
-      "term": "Default Mode Network",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000082702"
-    },
-    {
       "term": "Dementia",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D003704"
     },
     {
-      "term": "auditory stimulation"
+      "term": "brain stimulation"
     }
   ],
   "related_identifiers": [
     {
-      "identifier": "10.18112/openneuro.ds005048.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
-    },
-    {
       "identifier": "10.1038/s41598-024-63727-z",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "10.1101/2021.09.30.462389",
@@ -69,6 +59,11 @@
       "identifier": "https://nemar.org/dataset/on005048",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005048.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -85,7 +80,7 @@
     "eeg"
   ],
   "sizes": [
-    "373.1 MB (71 files)"
+    "356 MB (71 files)"
   ],
   "formats": [
     ".fdt",
@@ -95,5 +90,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "a8b4bcff3cc5355dd73ce4bc782362da5efa18ff006c2120a7f0bf46b56b833e"
+  "source_hash": "95166a1ffd93320a4a05999204f7db5dc9f81cba76ba9283fa5fe0433df751f6"
 }
