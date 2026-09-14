@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "40Hz Auditory Entrainment",
-  "description": "This dataset contains EEG recordings from elderly participants with dementia undergoing 40Hz auditory gamma-band entrainment stimulation. The study aims to investigate the effect of auditory entrainment on brain oscillations, motivated by prior findings that gamma entrainment can improve symptoms of Alzheimer's disease. EEG was recorded using a 19-channel 10/20 system montage during short and long stimulation sessions involving amplitude-modulated tones.",
-  "methods_description": "EEG data were recorded using 19 monopolar channels based on the standard 10/20 system at a sampling rate of 250Hz, with electrode impedance kept under 20kΩ. Auditory stimuli consisted of a 5kHz carrier tone amplitude-modulated with a 40Hz rectangular wave (4% duty cycle), delivered via two speakers positioned 50cm from the participant. Sessions included multiple 40-second trials interleaved with 20-second rest periods, with short sessions (6 trials) referenced to earlobes and long sessions (10 trials) referenced to FCz; data were later re-referenced to the average during preprocessing.",
+  "description": "This dataset contains EEG recordings from elderly participants with dementia undergoing 40Hz auditory entrainment stimulation, designed to investigate gamma-band brain oscillation entrainment as a potential therapeutic approach for Alzheimer's disease symptoms. Participants underwent short or long sessions of amplitude-modulated auditory stimulation while 19-channel EEG data were recorded using the 10/20 system. The study aims to characterize changes in brain oscillatory activity and connectivity related to auditory gamma entrainment.",
+  "methods_description": "EEG was recorded using 19 monopolar channels based on the standard 10/20 system at a 250Hz sampling rate, with electrode impedance kept under 20kΩ. Auditory stimulation consisted of a 5kHz carrier tone amplitude-modulated with a 40Hz rectangular wave (4% duty cycle), presented via two speakers positioned 50cm from the participant. Short sessions included six 40-second trials with 20-second rest periods (earlobe reference), while long sessions comprised ten trials (FCz reference); average referencing was applied during preprocessing.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -34,6 +34,9 @@
       "term": "Dementia",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D003704"
+    },
+    {
+      "term": "default mode network"
     },
     {
       "term": "brain stimulation"
